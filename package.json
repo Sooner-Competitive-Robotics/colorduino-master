@@ -1,0 +1,30 @@
+{
+  "name": "colorduino-master",
+  "version": "1.0.0",
+  "description": "For the Sooner IEEE robot. Provides a wrapper for setting pixels over I2C.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sooner-ieee-robotics/colorduino-master.git"
+  },
+  "keywords": [
+    "ou",
+    "ieee",
+    "robotics",
+    "robot",
+    "colorduino",
+    "driver"
+  ],
+  "author": "Alex Hamilton <alex.hamilton@ou.edu>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sooner-ieee-robotics/colorduino-master/issues"
+  },
+  "homepage": "https://github.com/sooner-ieee-robotics/colorduino-master#readme",
+  "dependencies": {
+    "i2c": "^0.2"
+  }
+}
