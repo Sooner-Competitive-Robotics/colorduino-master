@@ -13,7 +13,7 @@ This library exposes a single class, `Master`. This class, intended to be used a
 
 #### `Master(void)`
 
-Returns an instance of the Master class which communicates using I<sup>2</sup> address 8.
+Returns an instance of the Master class which communicates using I<sup>2</sup>C address 8.
 
 
 #### `Master(int address)`
