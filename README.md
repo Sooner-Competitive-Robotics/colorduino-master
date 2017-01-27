@@ -1,6 +1,6 @@
 # colorduino-master
 
-This (branch of this) repository contains C++ code to communicate with a Colorduino device via I^2^C (intended to be used with [colorduino-slave](https://github.com/Sooner-IEEE-Robotics/colorduino-slave)) to set a given light to a certain color value. Since it runs on an Arduino itself, it doesn't do exception handling or anything very flexible/complicated, but it ought to work for what we need it to do.
+This (branch of this) repository contains C++ code to communicate with a Colorduino device via I<sup>2</sup>C (intended to be used with [colorduino-slave](https://github.com/Sooner-IEEE-Robotics/colorduino-slave)) to set a given light to a certain color value. Since it runs on an Arduino itself, it doesn't do exception handling or anything very flexible/complicated, but it ought to work for what we need it to do.
 
 This library exposes a single class, `Master`. This class, intended to be used as a singleton, exposes simple functions to do things to the Colorduino display (which you would expect), documented below.
 
@@ -13,7 +13,7 @@ This library exposes a single class, `Master`. This class, intended to be used a
 
 #### `Master(void)`
 
-Returns an instance of the Master class which communicates using I^2^C address 8.
+Returns an instance of the Master class which communicates using I<sup>2</sup> address 8.
 
 
 #### `Master(int address)`
