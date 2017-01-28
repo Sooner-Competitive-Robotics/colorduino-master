@@ -1,7 +1,7 @@
 #include <Colorduino.h>
 #include <Wire.h>
 
-class Master {
+class SoonerColorduinoMaster {
   
   int address;
 

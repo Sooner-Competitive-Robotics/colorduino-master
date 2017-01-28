@@ -1,7 +1,7 @@
 #ifndef FLUFFY_KITTENS
 #define FLUFFY_KITTENS
 
-class Master {
+class SoonerColorduinoMaster {
 	
     Master(int address);
     Master(void); // Default address is 8.
