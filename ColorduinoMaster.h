@@ -3,8 +3,8 @@
 
 class SoonerColorduinoMaster {
 	
-    Master(int address);
-    Master(void); // Default address is 8.
+    SoonerColorduinoMaster(int address);
+    SoonerColorduinoMaster(void); // Default address is 8.
     
     int setPixelBlue(int x, int y); // Returns 0 on success, -1 on failure.
     int setPixelRed(int x, int y); // Returns 0 on success, -1 on failure.
